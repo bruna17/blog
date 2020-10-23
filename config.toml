@@ -1,4 +1,4 @@
-baseURL = "https://"
+baseURL = "https://blog.jubb.xyz"
 title = "Harris"
 
 theme = "fuji"
