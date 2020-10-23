@@ -31,11 +31,10 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  author = "DSRKafuU" # You can also set author in post front matter individually
-  subTitle = "A minimal Hugo theme."
+  author = "Harris" # You can also set author in post front matter individually
 
   # Source URL of the website, will appear in the footer
-  sourceURL = "https://github.com/itsme/my_blog"
+  sourceURL = "https://github.com/hjubb/blog"
 
   # Use CloudFlare Workers to accelerate the Google Analytics
   # If you are using this please comment the googleAnalytics above
@@ -63,7 +62,7 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
-  description = "A minimal Hugo theme with nice theme color."
+  description = "Harris' blog"
   images = ["img/og.png"] # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
@@ -137,14 +136,10 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/amzrk2"
+    url = "https://github.com/hjubb"
     weight = 1
   [[menu.link]]
     name = "Twitter"
-    url = "https://twitter.com/amzrk2"
+    url = "https://twitter.com/harris_s0n"
     weight = 2
-  [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
-    weight = 3
 
