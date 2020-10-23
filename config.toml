@@ -51,10 +51,10 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
   showReadTime = false
 
   # License in the footer
-  showLicenseInFooter = false
+  showLicenseInFooter = true
 
   # License at the end of each post
-  showLicense = true
+#  showLicense = true
   showToc = true
 
   # Copyright
@@ -72,8 +72,8 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
   # bgmImageChart = "000000"
 
   # License
-  license = "CC BY-NC-SA 4.0"
-  licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+  license = "MIT"
+  licenseLink = "https://mit-license.org/"
 
   # Comments
   # utterances, see: https://utteranc.es/
