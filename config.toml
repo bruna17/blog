@@ -63,7 +63,7 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
   description = "Harris' blog"
-  images = ["img/og.png"] # This will use the image called og.png in static/img folder
+  images = ["img/itme.jpg"] # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
   mainSections = ["post"]
@@ -126,13 +126,9 @@ googleAnalytics = "UA-178544090-2" # Set your Google Analytics UA here
     url = "/about/"
     weight = 3
   [[menu.nav]]
-    name = "Search"
-    url = "/search/"
-    weight = 4
-  [[menu.nav]]
     name = "RSS"
     url = "/index.xml"
-    weight = 5
+    weight = 4
 
   [[menu.link]]
     name = "GitHub"
