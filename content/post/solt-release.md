@@ -114,7 +114,7 @@ Chances are if you can see a deployed contract on Etherscan's explorer you can p
 
 #### `--infura` and `--etherscan` API Keys
 I've packaged API keys with the tool, and I can only see the packaged Etherscan key becoming problematic, so this should rarely need to be specified.
-If however you want to use your own keys (so other users don't have to create accounts, generate keys and use them here), you can specify these or 
+If however you want to use your own keys (so other users don't have to create accounts, generate keys and use them here if the shared keys get rate limited), you can specify these or 
 pass them through some CI process or environment variable in the command line:
 ```bash
 solt verify ... --infura $INFURA_KEY --etherscan $ETHERSCAN_KEY
