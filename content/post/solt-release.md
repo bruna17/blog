@@ -169,9 +169,12 @@ with the following command:
 ```bash
 $ solt verify solc-input-verified.json 0xD66888E0815B87c19b04Fa9DcD495CAb49928912 Verified -c v0.6.7 --network rinkeby
 ```
-which, after executing and waiting for the result, should return us a `Pass - Verified` at the end of execution.
+which, after executing and waiting for the result, should return us a `Pass - Verified` at the end of execution, or if you've just run the exact
+same command as I wrote above, it will probably tell you it's already been verified...
+You can check out the output result for my deployed cool token [here](https://rinkeby.etherscan.io/address/0xd66888e0815b87c19b04fa9dcd495cab49928912#code).
 
-You can check out my result [here](https://rinkeby.etherscan.io/address/0xd66888e0815b87c19b04fa9dcd495cab49928912#code)
+
+Congratulations you are now the proud owner of 100% of the 10*10^-18 total CoolTokens in existence, don't spend them all in one place!
 
 ## Wrapping Up
 If you've found `solt` useful reach out to me and let me know on [Twitter @harris_s0n](https://twitter.com/harris_s0n) or by showing your appreciation
